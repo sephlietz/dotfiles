@@ -177,3 +177,18 @@ function getcertnames() {
 		return 1;
 	fi;
 }
+
+# Switch JAVA_HOME
+function setjdk() {
+	if [ -z "${1}" ]; then
+		echo "ERROR: No version specified.";
+		echo "usage: setjdk <version>"
+		echo "example: setjdk 1.7"
+		return 1;
+	fi;
+
+	local version="${1}";
+	local location=$( /usr/libexec/java_home -v ${version} )
+	echo "Switching JAVA_HOME to ${location}"
+	export JAVA_HOME=${location}
+}
