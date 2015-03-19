@@ -1,0 +1,3 @@
+[extensions]
+# Add color to various hg command output
+color =
