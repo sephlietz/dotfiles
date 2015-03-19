@@ -1,3 +1,8 @@
 [extensions]
-# Add color to various hg command output
+## Add color to various hg command output
 color =
+## Use an external pager for command output
+pager =
+
+[pager]
+pager = less -FRX
