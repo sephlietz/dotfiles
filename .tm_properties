@@ -1,0 +1,8 @@
+# General editing
+softWrap = false
+softTabs = true
+tabSize = 4
+
+# HTML and JavaScript
+[ *.{html,js} ]
+tabSize = 2
