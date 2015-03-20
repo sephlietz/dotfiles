@@ -17,6 +17,7 @@ brew upgrade
 brew install git
 brew install maven
 brew install mercurial
+brew install rbenv ruby-build
 
 # Remove outdated versions from the cellar.
 brew cleanup
