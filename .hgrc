@@ -6,3 +6,6 @@ pager =
 
 [pager]
 pager = less -FRX
+
+[ui]
+ignore = ~/.hgignore
