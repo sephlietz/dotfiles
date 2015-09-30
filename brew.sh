@@ -14,10 +14,14 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+brew install heroku-toolbelt
 brew install git
+brew install gradle
 brew install maven
 brew install mercurial
+brew install node
 brew install rbenv ruby-build
+brew install scala
 
 # Remove outdated versions from the cellar.
 brew cleanup
