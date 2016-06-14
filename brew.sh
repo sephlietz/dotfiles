@@ -21,6 +21,7 @@ brew install maven
 brew install mercurial
 brew install node
 brew install rbenv ruby-build
+brew install sbt
 brew install scala
 
 # Remove outdated versions from the cellar.
