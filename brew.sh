@@ -14,6 +14,7 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+brew install awscli
 brew install heroku-toolbelt
 brew install git
 brew install gradle

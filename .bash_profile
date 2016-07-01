@@ -45,3 +45,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Enable rbenv shims and autocompletion:
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi;
+
+# Add tab completion for AWS CLI
+complete -C aws_completer aws
