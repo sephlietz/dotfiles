@@ -18,6 +18,7 @@ brew install awscli
 brew install heroku-toolbelt
 brew install git
 brew install gradle
+brew install groovy
 brew install maven
 brew install mercurial
 brew install node
