@@ -19,6 +19,7 @@ brew cask install java8
 brew cask install java
 
 brew cask install atom
+brew cask install intellij-idea-ce
 
 brew install awscli
 brew install heroku-toolbelt
