@@ -20,6 +20,7 @@ brew cask install java
 
 brew cask install atom
 brew cask install intellij-idea-ce
+brew cask install launchbar
 
 brew install awscli
 brew install heroku-toolbelt
