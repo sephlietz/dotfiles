@@ -14,6 +14,10 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+brew tap caskroom/versions
+brew cask install java8
+brew cask install java
+
 brew install awscli
 brew install heroku-toolbelt
 brew install git
