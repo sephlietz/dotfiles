@@ -14,14 +14,19 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# Casks
+
+## Java is a prerequisite for many formulae
 brew tap caskroom/versions
 brew cask install java8
 brew cask install java
 
 brew cask install atom
+brew cask install docker
 brew cask install intellij-idea-ce
 brew cask install launchbar
 
+# Formulae
 brew install awscli
 brew install heroku-toolbelt
 brew install git
