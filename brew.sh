@@ -18,6 +18,8 @@ brew tap caskroom/versions
 brew cask install java8
 brew cask install java
 
+brew cask install atom
+
 brew install awscli
 brew install heroku-toolbelt
 brew install git
