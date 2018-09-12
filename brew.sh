@@ -37,6 +37,7 @@ brew install maven
 brew install mercurial
 brew install node
 brew install pipenv
+brew install postgresql
 brew install python
 brew install python3
 brew install rbenv ruby-build
