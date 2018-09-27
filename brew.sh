@@ -22,6 +22,7 @@ brew cask install java8
 brew cask install java
 
 brew cask install atom
+brew cask install gitup
 brew cask install google-chrome
 brew cask install docker
 brew cask install intellij-idea-ce
