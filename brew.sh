@@ -29,6 +29,7 @@ brew cask install intellij-idea-ce
 brew cask install launchbar
 
 # Formulae
+brew install adr-tools
 brew install awscli
 brew install heroku-toolbelt
 brew install git
