@@ -48,3 +48,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi;
 
 # Add tab completion for AWS CLI
 complete -C aws_completer aws
+
+
+# Set JDK8
+setjdk 1.8
