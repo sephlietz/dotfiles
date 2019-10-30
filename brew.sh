@@ -25,6 +25,7 @@ brew cask install gitup
 brew cask install google-chrome
 brew cask install docker
 brew cask install intellij-idea-ce
+brew cask install visual-studio-code
 
 # Formulae
 brew install adr-tools
