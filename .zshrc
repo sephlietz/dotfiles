@@ -97,3 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+jenv shell 1.8

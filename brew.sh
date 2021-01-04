@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
+
+set -e
 
 # Install command-line tools using Homebrew.
 
@@ -17,20 +19,20 @@ brew upgrade
 # Casks
 
 ## Java is a prerequisite for many formulae
-brew tap caskroom/versions
-brew cask install java8
-brew cask install java
+brew tap homebrew/cask-versions
+brew install --cask java8
+brew install --cask java
 
-brew cask install gitup
-brew cask install google-chrome
-brew cask install docker
-brew cask install intellij-idea-ce
-brew cask install visual-studio-code
+brew install --cask gitup
+brew install --cask google-chrome
+brew install --cask docker
+brew install --cask intellij-idea-ce
+brew install --cask visual-studio-code
 
 # Formulae
 brew install adr-tools
 brew install awscli
-brew install heroku-toolbelt
+brew install heroku
 brew install git
 brew install gradle
 brew install groovy
