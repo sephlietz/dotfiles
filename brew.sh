@@ -47,6 +47,7 @@ brew install python3
 brew install rbenv ruby-build
 brew install sbt
 brew install scala
+brew install the_silver_searcher
 
 # Remove outdated versions from the cellar.
 brew cleanup
