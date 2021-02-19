@@ -20,8 +20,8 @@ brew upgrade
 
 ## Java is a prerequisite for many formulae
 brew tap homebrew/cask-versions
-brew install --cask java8
-brew install --cask java
+brew install java
+brew install --cask homebrew/cask-versions/adoptopenjdk8
 
 brew install --cask gitup
 brew install --cask google-chrome
