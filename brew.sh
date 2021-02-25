@@ -27,6 +27,7 @@ brew install --cask gitup
 brew install --cask google-chrome
 brew install --cask docker
 brew install --cask intellij-idea-ce
+brew install --cask qlmarkdown
 brew install --cask visual-studio-code
 
 # Formulae
