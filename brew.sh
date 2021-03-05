@@ -20,7 +20,7 @@ brew upgrade
 
 ## Java is a prerequisite for many formulae
 brew tap homebrew/cask-versions
-brew install java
+brew install java11
 brew install --cask homebrew/cask-versions/adoptopenjdk8
 
 brew install --cask gitup
