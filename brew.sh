@@ -34,7 +34,6 @@ brew install --cask visual-studio-code
 # Formulae
 brew install adr-tools
 brew install awscli
-brew install heroku
 brew install git
 brew install gradle
 brew install groovy
