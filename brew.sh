@@ -23,12 +23,10 @@ brew tap homebrew/cask-versions
 brew install java11
 brew install --cask homebrew/cask-versions/adoptopenjdk8
 
-brew install --cask atom
 brew install --cask gitup
 brew install --cask google-chrome
 brew install --cask docker
 brew install --cask intellij-idea-ce
-brew install --cask qlmarkdown
 brew install --cask visual-studio-code
 
 # Formulae

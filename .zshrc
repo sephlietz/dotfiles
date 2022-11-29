@@ -74,6 +74,7 @@ plugins=(
   jenv
   brew
   sbt
+  zsh-nvm
 )
 
 source $ZSH/oh-my-zsh.sh
