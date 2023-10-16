@@ -158,3 +158,11 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[user]
+    name = Seph Lietz
+    email = josephlietz@gmail.com
+
+[includeIf "gitdir:~/Projects/here/"]
+    path = ~/.gitconfig-here
+
