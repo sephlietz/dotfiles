@@ -18,20 +18,20 @@ brew upgrade
 
 # Casks
 
-## Java is a prerequisite for many formulae
 brew tap homebrew/cask-versions
-brew install java11
-brew install --cask homebrew/cask-versions/adoptopenjdk8
 
 brew install --cask gitup
 brew install --cask google-chrome
-brew install --cask docker
 brew install --cask intellij-idea-ce
 brew install --cask visual-studio-code
 
 # Formulae
 brew install adr-tools
 brew install awscli
+brew install corretto@8
+brew install corretto@11
+brew install corretto@17
+brew install corretto@19
 brew install git
 brew install gradle
 brew install groovy
@@ -40,6 +40,7 @@ brew install maven
 brew install mercurial
 brew install node
 brew install pipenv
+brew install podman-desktop
 brew install postgresql
 brew install python
 brew install python3
